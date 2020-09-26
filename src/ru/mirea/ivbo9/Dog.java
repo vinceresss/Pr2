@@ -11,13 +11,12 @@ public class Dog {
         this.name = name;
     }
     public void toHumanAge(){
-        int HumanAge=age*7;
+        int humanAge=age*7;
     }
     public String toString(){
         return "Dog{"
-                +"Age: "+age
-                +"Name: "+name
-                +'}';
+                +" Age: "+age
+                +" Name: "+name+'}';
 
     }
 

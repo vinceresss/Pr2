@@ -9,6 +9,8 @@ public class Main  {
         dog.setName();
         dog.toHumanAge();
         System.out.println(dog);
+        DogsKennel ken = new DogsKennel();
+        ken.addDog(3,"Sara");
 
     }
 }
