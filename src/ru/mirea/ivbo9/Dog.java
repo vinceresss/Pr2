@@ -11,20 +11,19 @@ public class Dog {
         this.name = name;
     }
 
-    public void toHumanAge() {
-        humanAge = age * 7;
+    public int toHumanAge() {
+        return age * 7;
     }
 
     public String toString() {
         return "Dog{"
                 + " Age: " + age
                 + " Name: " + name
-                + " human age: " + humanAge
+                + " human age: " + toHumanAge()
                 + '}';
 
     }
 
-    private int humanAge;
     private int age;
     private String name;
 

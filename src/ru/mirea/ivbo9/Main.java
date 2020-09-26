@@ -11,6 +11,8 @@ public class Main {
         System.out.println(dog);
         DogsKennel ken = new DogsKennel();
         ken.addDog(3, "Sara");
+        ken.addDog(6, "Mike");
+        ken.getDogs();
 
     }
 }
